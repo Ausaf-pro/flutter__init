@@ -91,7 +91,7 @@ class _LoginPageState extends State<LoginPage> {
                       borderRadius:
                           BorderRadius.circular(changeButton ? 50 : 8),
                       child: InkWell(
-                        splashColor: Colors.purple.shade200,
+                        splashColor: Colors.purple.shade600,
                         onTap: () => moveToHome(context),
                         child: AnimatedContainer(
                           duration: Duration(seconds: 1),
